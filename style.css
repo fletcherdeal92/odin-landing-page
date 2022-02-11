@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+header {
+    background-image: url("/images/ocean-waves.jpg");
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-block {
+    background: #f9faf8;
+}
+
+.quote-block {
+    background: #E5E7EB;
+}
+
+.cta-block {
+    background: #f9faf8;
+}
+
+footer {
+    background: #1f2937;
+    color: white;
+}
+
+footer a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
